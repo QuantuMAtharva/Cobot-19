@@ -87,7 +87,7 @@ if X=='Y' or X=="YES" or X=="yes" or X=="Yes" or X=="y":
       elif I=="MED" or I=="med" or I=="Med" :
         webbrowser.open("https://www.google.com/search?q=medical+shops+near+me") 
       elif I=="PIC" or I =="pic" or I=="Pic":
-         im = Image.open(r'1.jpg')
+         im = Image.open(r'poster.jpg')
          im.show()    
       elif I=='E':
          print("Call govt helpline no: 91-11-23978046")
@@ -133,7 +133,7 @@ else
       elif I=="HOSPITAL":
          webbrowser.open("https://www.google.com/search?q=hospitals+near+me")
       elif I=="PIC" or I =="pic" or I=="Pic":
-         im = Image.open(r'1.jpg')
+         im = Image.open(r'poster.jpg')
          im.show()  
       elif I=='E':
          print("Call govt helpline no: 91-11-23978046")
